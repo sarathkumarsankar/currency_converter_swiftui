@@ -11,6 +11,11 @@
 		653E3E262B3A1F5200B6EC72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E252B3A1F5200B6EC72 /* ContentView.swift */; };
 		653E3E282B3A1F5300B6EC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E3E272B3A1F5300B6EC72 /* Assets.xcassets */; };
 		653E3E2B2B3A1F5300B6EC72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E3E2A2B3A1F5300B6EC72 /* Preview Assets.xcassets */; };
+		653E3E322B3AFFC700B6EC72 /* ExchangeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E312B3AFFC700B6EC72 /* ExchangeInfo.swift */; };
+		653E3E342B3BA0EA00B6EC72 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E332B3BA0EA00B6EC72 /* SelectCurrency.swift */; };
+		653E3E362B3BA38700B6EC72 /* CurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E352B3BA38700B6EC72 /* CurrencyData.swift */; };
+		653E3E382B3BAD0D00B6EC72 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E372B3BAD0D00B6EC72 /* GridView.swift */; };
+		653E3E3A2B3CB31C00B6EC72 /* CurrencyConverterTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E3E392B3CB31C00B6EC72 /* CurrencyConverterTipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		653E3E252B3A1F5200B6EC72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		653E3E272B3A1F5300B6EC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653E3E2A2B3A1F5300B6EC72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		653E3E312B3AFFC700B6EC72 /* ExchangeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfo.swift; sourceTree = "<group>"; };
+		653E3E332B3BA0EA00B6EC72 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
+		653E3E352B3BA38700B6EC72 /* CurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyData.swift; sourceTree = "<group>"; };
+		653E3E372B3BAD0D00B6EC72 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		653E3E392B3CB31C00B6EC72 /* CurrencyConverterTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				653E3E232B3A1F5200B6EC72 /* CurrencyConverterApp.swift */,
 				653E3E252B3A1F5200B6EC72 /* ContentView.swift */,
+				653E3E312B3AFFC700B6EC72 /* ExchangeInfo.swift */,
+				653E3E332B3BA0EA00B6EC72 /* SelectCurrency.swift */,
+				653E3E352B3BA38700B6EC72 /* CurrencyData.swift */,
+				653E3E372B3BAD0D00B6EC72 /* GridView.swift */,
+				653E3E392B3CB31C00B6EC72 /* CurrencyConverterTipView.swift */,
 				653E3E272B3A1F5300B6EC72 /* Assets.xcassets */,
 				653E3E292B3A1F5300B6EC72 /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653E3E3A2B3CB31C00B6EC72 /* CurrencyConverterTipView.swift in Sources */,
+				653E3E322B3AFFC700B6EC72 /* ExchangeInfo.swift in Sources */,
 				653E3E262B3A1F5200B6EC72 /* ContentView.swift in Sources */,
+				653E3E342B3BA0EA00B6EC72 /* SelectCurrency.swift in Sources */,
+				653E3E362B3BA38700B6EC72 /* CurrencyData.swift in Sources */,
+				653E3E382B3BAD0D00B6EC72 /* GridView.swift in Sources */,
 				653E3E242B3A1F5200B6EC72 /* CurrencyConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +295,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +325,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
